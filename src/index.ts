@@ -7,12 +7,17 @@ import { getActivitiesFromElastic } from './services/elasticsearch.js';
 import { matchActivitiesToKazanim } from './services/activity-matcher.js';
 import { searchKazanimlar } from './services/kazanim-search.js';
 import { searchDisKazanimlar } from './services/dis-kazanim-search.js';
+import cors from 'cors';
 
 dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-
+app.use(cors({
+  origin: '*',
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['*'],
+}));
 app.use(express.json());
 
 app.post('/api/match-kazanim', async (req, res) => {
