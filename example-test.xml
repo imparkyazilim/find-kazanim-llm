@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testler SECENEK="false" SECENEKYARICAP="8" TEKRARAC="false">
+  <test ADI="Türkçe" ID="0" BaslangicSayfasi="5" BitisSayfasi="7" SECENEKSAYISI="5" testCerceve="0,0,0,0" BASARIORANI="50">
+    <item>
+      <cevap>-</cevap>
+      <page>5</page>
+      <rect>61,92,267,217</rect>
+      <soruNoCoordinates>67,97,18,17</soruNoCoordinates>
+      <soruNo>1</soruNo>
+      <testId>0</testId>
+      <question_content>Yel estikçe uçuşan yapraklara benziyor. Durmadan yorulmadan daldan dala geziyor. Yukarıda verilen şiirde kaç dize vardır? A) 3 B) 4 C) 5</question_content>
+      <secenekler secenek="A" X="99" Y="287"/>
+      <secenekler secenek="B" X="178" Y="288"/>
+      <secenekler secenek="C" X="258" Y="289"/>
+    </item>
+    <item>
+      <cevap>-</cevap>
+      <page>5</page>
+      <rect>61,320,267,445</rect>
+      <soruNoCoordinates>67,325,18,17</soruNoCoordinates>
+      <soruNo>2</soruNo>
+      <testId>0</testId>
+      <question_content>Aşağıdaki cümlelerin hangisinde noktalama işareti yanlış kullanılmıştır? A) Kitap, defter ve kalem aldım. B) Yarın okula gidecek misin? C) Ne güzel bir gün!</question_content>
+      <secenekler secenek="A" X="99" Y="515"/>
+      <secenekler secenek="B" X="178" Y="516"/>
+      <secenekler secenek="C" X="258" Y="517"/>
+    </item>
+    <item>
+      <cevap>-</cevap>
+      <page>6</page>
+      <rect>61,92,267,217</rect>
+      <soruNoCoordinates>67,97,18,17</soruNoCoordinates>
+      <soruNo>3</soruNo>
+      <testId>0</testId>
+      <question_content>Metinde hangi söz sanatı kullanılmıştır? "Ağaçlar konuşuyor gibiydi." A) Benzetme B) Kişileştirme C) Abartma</question_content>
+      <secenekler secenek="A" X="99" Y="287"/>
+      <secenekler secenek="B" X="178" Y="288"/>
+      <secenekler secenek="C" X="258" Y="289"/>
+    </item>
+    <item>
+      <cevap>-</cevap>
+      <page>6</page>
+      <rect>61,320,267,445</rect>
+      <soruNoCoordinates>67,325,18,17</soruNoCoordinates>
+      <soruNo>4</soruNo>
+      <testId>0</testId>
+      <question_content>Dinlediğiniz metindeki ana fikir nedir? A) Doğanın güzelliği B) Arkadaşlığın önemi C) Zamanın değeri</question_content>
+      <secenekler secenek="A" X="99" Y="515"/>
+      <secenekler secenek="B" X="178" Y="516"/>
+      <secenekler secenek="C" X="258" Y="517"/>
+    </item>
+    <item>
+      <cevap>-</cevap>
+      <page>7</page>
+      <rect>61,92,267,217</rect>
+      <soruNoCoordinates>67,97,18,17</soruNoCoordinates>
+      <soruNo>5</soruNo>
+      <testId>0</testId>
+      <question_content>Aşağıdaki fiillerin hangisinde anlam kayması vardır? A) Koşmak B) Yemek C) Tutmak (sınıfta kalmak anlamında)</question_content>
+      <secenekler secenek="A" X="99" Y="287"/>
+      <secenekler secenek="B" X="178" Y="288"/>
+      <secenekler secenek="C" X="258" Y="289"/>
+    </item>
+  </test>
+  <test ADI="Matematik" ID="1" BaslangicSayfasi="8" BitisSayfasi="10" SECENEKSAYISI="4" testCerceve="0,0,0,0" BASARIORANI="60">
+    <item>
+      <cevap>-</cevap>
+      <page>8</page>
+      <rect>61,92,267,217</rect>
+      <soruNoCoordinates>67,97,18,17</soruNoCoordinates>
+      <soruNo>1</soruNo>
+      <testId>1</testId>
+      <question_content>5 + 3 = ? A) 6 B) 7 C) 8 D) 9</question_content>
+      <secenekler secenek="A" X="99" Y="287"/>
+      <secenekler secenek="B" X="178" Y="288"/>
+      <secenekler secenek="C" X="258" Y="289"/>
+      <secenekler secenek="D" X="338" Y="290"/>
+    </item>
+  </test>
+</testler>

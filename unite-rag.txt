@@ -1,0 +1,114 @@
+Ünite [84]: T.7.1. DİNLEME/İZLEME | Konu [1639]: T.7.1.1. Dinlediklerinde/izlediklerinde geçen olayların gelişimi ve sonucu hakkında tahminde bulunur. | Kazanım [3615]: T.7.1.1. Dinlediklerinde/izlediklerinde geçen olayların gelişimi ve sonucu hakkında tahminde bulunur.
+Ünite [85]: T.7.2. KONUŞMA | Konu [1640]: T.7.2.1. Hazırlıklı konuşma yapar. | Kazanım [3629]: T.7.2.1. Hazırlıklı konuşma yapar. | Açıklama: Öğrencilerin düşüncelerini mantıksal bir bütünlük içinde sunmaları, görsel, işitsel vb. destekleyici
+materyaller kullanarak sunu hazırlamaları sağlanır.
+Ünite [86]: T.7.3. OKUMA | Konu [1641]: T.7.3.1. Noktalama işaretlerine dikkat ederek sesli ve sessiz okur. | Kazanım [3636]: T.7.3.1.1. Nokta, virgül, iki nokta, noktalı virgül, üç nokta, soru işareti, ünlem
+Ünite [86]: T.7.3. OKUMA | Konu [1641]: T.7.3.1. Noktalama işaretlerine dikkat ederek sesli ve sessiz okur. | Kazanım [11500]: T.7.3.1.2. Tırnak işareti, kesme işareti, yay ayraç, kısa çizgi, uzun çizgi, eğik çizgi
+Ünite [86]: T.7.3. OKUMA | Konu [1641]: T.7.3.1. Noktalama işaretlerine dikkat ederek sesli ve sessiz okur. | Kazanım [11501]: T.7.3.1.3. Noktalama işaretleri karma soruları kavrar.
+Ünite [87]: T.7.4. YAZMA | Konu [1642]: T.7.4.1. Şiir yazar. | Kazanım [3674]: T.7.4.1. Şiir yazar.
+Ünite [84]: T.7.1. DİNLEME/İZLEME | Konu [4193]: T.7.1.2. Dinlediklerinde/izlediklerinde geçen, bilmediği kelimelerin anlamını tahmin eder. | Kazanım [3616]: T.7.1.2. Dinlediklerinde/izlediklerinde geçen, bilmediği kelimelerin anlamını tahmin eder. | Açıklama: Öğrencilerin kelime anlamlarına yönelik tahminleri ile sözlük anlamlarını karşılaştırmaları sağlanır.
+Ünite [84]: T.7.1. DİNLEME/İZLEME | Konu [4194]: T.7.1.3. Dinlediklerini/izlediklerini özetler. | Kazanım [3617]: T.7.1.3. Dinlediklerini/izlediklerini özetler.
+Ünite [84]: T.7.1. DİNLEME/İZLEME | Konu [4195]: T.7.1.4. Dinledikleri/izlediklerine yönelik soruları cevaplar. | Kazanım [3618]: T.7.1.4. Dinledikleri/izlediklerine yönelik soruları cevaplar.
+Ünite [84]: T.7.1. DİNLEME/İZLEME | Konu [4196]: T.7.1.5. Dinlediklerinin/izlediklerinin konusunu belirler. | Kazanım [3619]: T.7.1.5. Dinlediklerinin/izlediklerinin konusunu belirler.
+Ünite [84]: T.7.1. DİNLEME/İZLEME | Konu [4197]: T.7.1.6. Dinlediklerinin/izlediklerinin ana fikrini/ana duygusunu belirler. | Kazanım [3620]: T.7.1.6. Dinlediklerinin/izlediklerinin ana fikrini/ana duygusunu belirler.
+Ünite [84]: T.7.1. DİNLEME/İZLEME | Konu [4198]: T.7.1.7. Dinlediklerine/izlediklerine yönelik farklı başlıklar önerir. | Kazanım [3621]: T.7.1.7. Dinlediklerine/izlediklerine yönelik farklı başlıklar önerir.
+Ünite [84]: T.7.1. DİNLEME/İZLEME | Konu [4199]: T.7.1.8. Dinlediği/izlediği hikâye edici metinleri canlandırır. | Kazanım [3622]: T.7.1.8. Dinlediği/izlediği hikâye edici metinleri canlandırır.
+Ünite [84]: T.7.1. DİNLEME/İZLEME | Konu [4200]: T.7.1.9. Dinlediklerinde/izlediklerinde başvurulan düşünceyi geliştirme yollarını tespit eder. | Kazanım [3623]: T.7.1.9. Dinlediklerinde/izlediklerinde başvurulan düşünceyi geliştirme yollarını tespit eder. | Açıklama: Düşünceyi geliştirme yollarından tanımlama, karşılaştırma ve benzetmenin belirlenmesi sağlanır.
+Ünite [84]: T.7.1. DİNLEME/İZLEME | Konu [4201]: T.7.1.10. Dinlediklerinde/izlediklerinde tutarlılığı sorgular. | Kazanım [3624]: T.7.1.10. Dinlediklerinde/izlediklerinde tutarlılığı sorgular.
+Ünite [84]: T.7.1. DİNLEME/İZLEME | Konu [4202]: T.7.1.11. Dinledikleriyle/izledikleriyle ilgili görüşlerini bildirir. | Kazanım [3625]: T.7.1.11. Dinledikleriyle/izledikleriyle ilgili görüşlerini bildirir.
+Ünite [84]: T.7.1. DİNLEME/İZLEME | Konu [4203]: T.7.1.12. Dinlediklerinin/izlediklerinin içeriğini değerlendirir. | Kazanım [3626]: T.7.1.12. Dinlediklerinin/izlediklerinin içeriğini değerlendirir. | Açıklama: a) Medya metinlerindeki örtülü anlamı belirlemesi sağlanır.
+b) Medya metinlerinin hedef kitlesi ve amacınının sorgulanması sağlanır.
+Ünite [84]: T.7.1. DİNLEME/İZLEME | Konu [4204]: T.7.1.13. Dinleme stratejilerini uygular. | Kazanım [3627]: T.7.1.13. Dinleme stratejilerini uygular. | Açıklama: Empati kurarak,katılımlı, katılımsız, not alarak dinleme gibi yöntem ve teknikleri uygulamaları sağlanır.
+Ünite [84]: T.7.1. DİNLEME/İZLEME | Konu [4205]: T.7.1.14. Konuşmacının sözlü olmayan mesajlarını kavrar. | Kazanım [3628]: T.7.1.14. Konuşmacının sözlü olmayan mesajlarını kavrar.
+Ünite [85]: T.7.2. KONUŞMA | Konu [4206]: T.7.2.2. Hazırlıksız konuşma yapar. | Kazanım [3630]: T.7.2.2. Hazırlıksız konuşma yapar.
+Ünite [85]: T.7.2. KONUŞMA | Konu [4207]: T.7.2.3. Konuşma stratejilerini uygular. | Kazanım [3631]: T.7.2.3. Konuşma stratejilerini uygular. | Açıklama: Katılımlı, yaratıcı, güdümlü, empati kurma, tartışma ve eleştirel konuşma gibi yöntem ve tekniklerinin
+kullanılması sağlanır.
+Ünite [85]: T.7.2. KONUŞMA | Konu [4208]: T.7.2.4. Konuşmalarında beden dilini etkili bir şekilde kullanır. | Kazanım [3632]: T.7.2.4. Konuşmalarında beden dilini etkili bir şekilde kullanır.
+Ünite [85]: T.7.2. KONUŞMA | Konu [4209]: T.7.2.5. Kelimeleri anlamlarına uygun kullanır. | Kazanım [3633]: T.7.2.5. Kelimeleri anlamlarına uygun kullanır.
+Ünite [85]: T.7.2. KONUŞMA | Konu [4210]: T.7.2.6. Konuşmalarında uygun geçiş ve bağlantı ifadelerini kullanır. | Kazanım [3634]: T.7.2.6. Konuşmalarında uygun geçiş ve bağlantı ifadelerini kullanır. | Açıklama: Oysaki, başka bir deyişle, özellikle, ilk olarak ve son olarak ifadelerini kullanmaları sağlanır.
+Ünite [85]: T.7.2. KONUŞMA | Konu [4211]: T.7.2.7. Konuşmalarında yabancı dillerden alınmış, dilimize henüz yerleşmemiş kelimelerin Türkçelerini kullanır. | Kazanım [3635]: T.7.2.7. Konuşmalarında yabancı dillerden alınmış, dilimize henüz yerleşmemiş kelimelerin Türkçelerini kullanır.
+Ünite [86]: T.7.3. OKUMA | Konu [4212]: T.7.3.2. Metni türün özelliklerine uygun biçimde okur. | Kazanım [3637]: T.7.3.2. Metni türün özelliklerine uygun biçimde okur. | Açıklama: Öğrencilerin seviyelerine uygun, edebî değeri olan şiirleri ve kısa yazıları türünün özelliğine göre okumaları
+ve ezberlemeleri sağlanır.
+Ünite [86]: T.7.3. OKUMA | Konu [4213]: T.7.3.3. Farklı yazı karakterleri ile yazılmış yazıları okur. | Kazanım [3638]: T.7.3.3. Farklı yazı karakterleri ile yazılmış yazıları okur.
+Ünite [86]: T.7.3. OKUMA | Konu [4214]: T.7.3.4. Okuma stratejilerini kullanır. | Kazanım [3639]: T.7.3.4. Okuma stratejilerini kullanır. | Açıklama: Göz atarak, özetleyerek, not alarak, işaretleyerek ve tartışarak okuma gibi yöntem ve teknikleri kullanmaları
+sağlanır.
+Ünite [86]: T.7.3. OKUMA | Konu [4215]: T.7.3.5. Bağlamdan hareketle bilmediği kelime ve kelime gruplarının anlamını tahmin eder. | Kazanım [3640]: T.7.3.5. Bağlamdan hareketle bilmediği kelime ve kelime gruplarının anlamını tahmin eder. | Açıklama: a) Öğrencilerin tahmin ettikleri kelime ve kelime gruplarını öğrenmek için sözlük, atasözleri ve deyimler
+sözlüğü vb. araçları kullanmaları sağlanır.
+b) Öğrencinin öğrendiği kelime ve kelime gruplarından sözlük oluşturması teşvik edilir.
+Ünite [86]: T.7.3. OKUMA | Konu [4216]: T.7.3.6. Deyim ve atasözlerinin metne katkısını belirler. | Kazanım [3641]: T.7.3.6. Deyim ve atasözlerinin metne katkısını belirler.
+Ünite [86]: T.7.3. OKUMA | Konu [4217]: T.7.3.7. Metni oluşturan unsurlar arasındaki geçiş ve bağlantı ifadelerinin anlama olan katkısını değerlendirir. | Kazanım [3642]: T.7.3.7. Metni oluşturan unsurlar arasındaki geçiş ve bağlantı ifadelerinin anlama olan katkısını değerlendirir. | Açıklama: Oysaki, başka bir deyişle, özellikle, ilk olarak ve son olarak ifadeleri üzerinde durulur.
+Ünite [86]: T.7.3. OKUMA | Konu [4218]: T.7.3.8. Metindeki söz sanatlarını tespit eder. | Kazanım [3643]: T.7.3.8.1. Benzetme - Konuşturma | Açıklama: Kişileştirme (teşhis), konuşturma (intak), karşıtlık (tezat) ve abartma (mübalağa) söz sanatları verilir.
+Ünite [86]: T.7.3. OKUMA | Konu [4218]: T.7.3.8. Metindeki söz sanatlarını tespit eder. | Kazanım [11502]: T.7.3.8.2. Abartma - Karşıtlık (Tezat) | Açıklama: Kişileştirme (teşhis), konuşturma (intak), karşıtlık (tezat) ve abartma (mübalağa) söz sanatları verilir.
+Ünite [86]: T.7.3. OKUMA | Konu [4218]: T.7.3.8. Metindeki söz sanatlarını tespit eder. | Kazanım [11503]: T.7.3.8.3. Söz sanatları karma sorularını kavrar. | Açıklama: Kişileştirme (teşhis), konuşturma (intak), karşıtlık (tezat) ve abartma (mübalağa) söz sanatları verilir.
+Ünite [86]: T.7.3. OKUMA | Konu [4219]: T.7.3.9. Çekim eklerinin işlevlerini ayırt eder. | Kazanım [3644]: T.7.3.9.1. Fillerde kip, Fillerde Kişi | Açıklama: 
+Ünite [86]: T.7.3. OKUMA | Konu [4219]: T.7.3.9. Çekim eklerinin işlevlerini ayırt eder. | Kazanım [11504]: T.7.3.9.2. Fiillerde olumsuzluk, Fillerde Soru | Açıklama: 
+Ünite [86]: T.7.3. OKUMA | Konu [4219]: T.7.3.9. Çekim eklerinin işlevlerini ayırt eder. | Kazanım [11505]: T.7.3.9.3. Fillerde anlam kayması | Açıklama: 
+Ünite [86]: T.7.3. OKUMA | Konu [4219]: T.7.3.9. Çekim eklerinin işlevlerini ayırt eder. | Kazanım [11506]: T.7.3.9.4. Fiil çekim ekleri karma sorularını kavrar | Açıklama: 
+Ünite [86]: T.7.3. OKUMA | Konu [4220]: T.7.3.10. Basit, türemiş ve birleşik fiilleri ayırt eder. | Kazanım [3645]: T.7.3.10. Basit, türemiş ve birleşik fiilleri ayırt eder.
+Ünite [86]: T.7.3. OKUMA | Konu [4221]: T.7.3.11. Zarfların metnin anlamına olan katkısını açıklar. | Kazanım [3646]: T.7.3.11.1. Durum Zarfı-Zaman Zarfı
+Ünite [86]: T.7.3. OKUMA | Konu [4221]: T.7.3.11. Zarfların metnin anlamına olan katkısını açıklar. | Kazanım [11507]: T.7.3.11.2. Yer-yön zarfı, Miktar zarfı, Soru zarfları
+Ünite [86]: T.7.3. OKUMA | Konu [4221]: T.7.3.11. Zarfların metnin anlamına olan katkısını açıklar. | Kazanım [11508]: T.7.3.11.3. Zarf karma soruları kavrar
+Ünite [86]: T.7.3. OKUMA | Konu [4222]: T.7.3.12. Fiillerin anlam özelliklerini fark eder. | Kazanım [3647]: T.7.3.12. Fiillerin anlam özelliklerini fark eder. | Açıklama: İş (kılış), oluş ve durum fiillerinin anlam özellikleri üzerinde durulur.
+Ünite [86]: T.7.3. OKUMA | Konu [4223]: T.7.3.13. Anlatım bozukluklarını tespit eder. | Kazanım [3648]: T.7.3.13.1. Gereksiz sözcük kullanımı-Anlamca çelişen sözcüklerin kullanılması | Açıklama: Anlam yönünden anlatım bozuklukları üzerinde durulur.
+Ünite [86]: T.7.3. OKUMA | Konu [4223]: T.7.3.13. Anlatım bozukluklarını tespit eder. | Kazanım [11509]: T.7.3.13.2. Sözcüğün yanlış anlamda kullanılması-Sözcüğün yanlış yerde kullanılması | Açıklama: Anlam yönünden anlatım bozuklukları üzerinde durulur.
+Ünite [86]: T.7.3. OKUMA | Konu [4223]: T.7.3.13. Anlatım bozukluklarını tespit eder. | Kazanım [11510]: T.7.3.13.3. Deyimin yanlış anlamda kullanılması-Anlam belirsizliği | Açıklama: Anlam yönünden anlatım bozuklukları üzerinde durulur.
+Ünite [86]: T.7.3. OKUMA | Konu [4223]: T.7.3.13. Anlatım bozukluklarını tespit eder. | Kazanım [11511]: T.7.3.13.4. Anlatım bozuklukları karma soruları kavrar | Açıklama: Anlam yönünden anlatım bozuklukları üzerinde durulur.
+Ünite [86]: T.7.3. OKUMA | Konu [4224]: T.7.3.14. Görsellerden ve başlıktan hareketle okuyacağı metnin konusunu tahmin eder. | Kazanım [3649]: T.7.3.14. Görsellerden ve başlıktan hareketle okuyacağı metnin konusunu tahmin eder.
+Ünite [86]: T.7.3. OKUMA | Konu [4225]: T.7.3.15. Okuduklarını özetler. | Kazanım [3650]: T.7.3.15. Okuduklarını özetler.
+Ünite [86]: T.7.3. OKUMA | Konu [4226]: T.7.3.16. Metnin konusunu belirler. | Kazanım [3651]: T.7.3.16. Metnin konusunu belirler.
+Ünite [86]: T.7.3. OKUMA | Konu [4227]: T.7.3.17. Metnin ana fikrini/ana duygusunu belirler. | Kazanım [3652]: T.7.3.17. Metnin ana fikrini/ana duygusunu belirler.
+Ünite [86]: T.7.3. OKUMA | Konu [4228]: T.7.3.18. Metindeki yardımcı fikirleri belirler. | Kazanım [3653]: T.7.3.18. Metindeki yardımcı fikirleri belirler.
+Ünite [86]: T.7.3. OKUMA | Konu [4229]: T.7.3.19. Metinle ilgili soruları cevaplar. | Kazanım [3654]: T.7.3.19. Metinle ilgili soruları cevaplar. | Açıklama: Metin içi ve metin dışı anlam ilişkileri kurulur.
+Ünite [86]: T.7.3. OKUMA | Konu [4230]: T.7.3.20. Metinle ilgili sorular sorar. | Kazanım [3655]: T.7.3.20. Metinle ilgili sorular sorar.
+Ünite [86]: T.7.3. OKUMA | Konu [4231]: T.7.3.21. Metindeki hikâye unsurlarını belirler. | Kazanım [3656]: T.7.3.21. Metindeki hikâye unsurlarını belirler. | Açıklama: Olay örgüsü, mekân, zaman, şahıs ve varlık kadrosu, anlatıcı üzerinde durulur.
+Ünite [86]: T.7.3. OKUMA | Konu [4232]: T.7.3.22. Metnin içeriğini yorumlar. | Kazanım [3657]: T.7.3.22. Metnin içeriğini yorumlar. | Açıklama: a) Yazarın olaylara bakış açısının tespit edilmesi sağlanır.
+b) Metindeki öznel ve nesnel yaklaşımların tespit edilmesi sağlanır.
+c) Metindeki örnek ve ayrıntılara atıf yapılması sağlanır.
+Ünite [86]: T.7.3. OKUMA | Konu [4233]: T.7.3.23. Metnin içeriğine uygun başlık/başlıklar belirler. | Kazanım [3658]: T.7.3.23. Metnin içeriğine uygun başlık/başlıklar belirler.
+Ünite [86]: T.7.3. OKUMA | Konu [4234]: T.7.3.24. Metinde ele alınan sorunlara farklı çözümler üretir. | Kazanım [3659]: T.7.3.24. Metinde ele alınan sorunlara farklı çözümler üretir.
+Ünite [86]: T.7.3. OKUMA | Konu [4235]: T.7.3.25. Metinler arasında karşılaştırma yapar. | Kazanım [3660]: T.7.3.25. Metinler arasında karşılaştırma yapar. | Açıklama: Bakış açısı ve mesajlar karşılaştırılır.
+Ünite [86]: T.7.3. OKUMA | Konu [4236]: T.7.3.26. Metindeki gerçek ve kurgusal unsurları ayırt eder. | Kazanım [3661]: T.7.3.26. Metindeki gerçek ve kurgusal unsurları ayırt eder.
+Ünite [86]: T.7.3. OKUMA | Konu [4237]: T.7.3.27. Metinde önemli noktaların vurgulanış biçimlerini kavrar. | Kazanım [3662]: T.7.3.27. Metinde önemli noktaların vurgulanış biçimlerini kavrar. | Açıklama: Altını çizmenin, koyu veya italik yazmanın, renklendirmenin, farklı punto veya font kullanmanın işlevi vurgulanır.
+Ünite [86]: T.7.3. OKUMA | Konu [4238]: T.7.3.28. Okudukları ile ilgili çıkarımlarda bulunur. | Kazanım [3663]: T.7.3.28.1. Eş ve yakın anlamlı cümleler, Cümle tamamlama, Cümle oluşturma, Kesinlik bildiren yargılar. | Açıklama: 
+Ünite [86]: T.7.3. OKUMA | Konu [4238]: T.7.3.28. Okudukları ile ilgili çıkarımlarda bulunur. | Kazanım [11512]: T.7.3.28.3. Cümlede kavramlar, Öznel cümle, Nesnel cümle, Öneri cümlesi, Varsayım cümlesi, Eleştiri cümlesi, Değerlendirme cümlesi. | Açıklama: 
+Ünite [86]: T.7.3. OKUMA | Konu [4238]: T.7.3.28. Okudukları ile ilgili çıkarımlarda bulunur. | Kazanım [11514]: T.7.3.28.4. Cümlede Duygular, Ön Yargı Cümlesi, Hayıflanma Cümlesi, Yakınma  Cümlesi, Uyarı Cümlesi, Pişmanlık Cümlesi, Endişe Cümlesi, Sitem, Beğenme, Şaşırma, Özlem, Özveri, Hoşgörü, Kanıksama, Bıkkınlık, Küçümseme, İkilem, Umut, Karamsarlık, Kızgınlık, Öz Güven, Alay. | Açıklama: 
+Ünite [86]: T.7.3. OKUMA | Konu [4238]: T.7.3.28. Okudukları ile ilgili çıkarımlarda bulunur. | Kazanım [11515]: T.7.3.28.5. Cümlenin anlamı ve yorumu karma soruları kavrar. | Açıklama: 
+Ünite [86]: T.7.3. OKUMA | Konu [4239]: T.7.3.29. Metin türlerini ayırt eder. | Kazanım [3664]: T.7.3.29. Metin türlerini ayırt eder. | Açıklama: a) Söyleşi, biyografi, otobiyografi, günlük türleri üzerinde durulur.
+b) Metin türlerine ilişkin ayrıntılı bilgi verilmemelidir.
+Ünite [86]: T.7.3. OKUMA | Konu [4240]: T.7.3.30. Görsellerle ilgili soruları cevaplar. | Kazanım [3665]: T.7.3.30. Görsellerle ilgili soruları cevaplar. | Açıklama: a) Grafitti ve karikatürlerin incelenmesi ve bunlarla ilgili görüş bildirilmesi sağlanır.
+b) Haberi/bilgiyi görsel yorumcuların nasıl ilettikleri üzerinde durulur.
+Ünite [86]: T.7.3. OKUMA | Konu [4241]: T.7.3.31. Medya metinlerini değerlendirir. | Kazanım [3666]: T.7.3.31. Medya metinlerini değerlendirir. | Açıklama: İnternet, sinema ve televizyonun verdiği iletileri değerlendirmeleri sağlanır.
+Ünite [86]: T.7.3. OKUMA | Konu [4242]: T.7.3.32. Bilgi kaynaklarını etkili bir şekilde kullanır. | Kazanım [3667]: T.7.3.32. Bilgi kaynaklarını etkili bir şekilde kullanır.
+Ünite [86]: T.7.3. OKUMA | Konu [4243]: T.7.3.33. Bilgi kaynaklarının güvenilirliğini sorgular. | Kazanım [3668]: T.7.3.33. Bilgi kaynaklarının güvenilirliğini sorgular. | Açıklama: a) İnternet/yazılı (dergi, kitap, broşür, gazete vb.) kaynakların güvenilirliklerinin sorgulanması sağlanır.
+b) Bilimsel çalışmalarda ağırlıklı olarak “edu” ve “gov” uzantılı sitelerin kullanıldığı vurgulanır.
+Ünite [86]: T.7.3. OKUMA | Konu [4244]: T.7.3.34. Grafik, tablo ve çizelgeyle sunulan bilgileri yorumlar. | Kazanım [3669]: T.7.3.34. Grafik, tablo ve çizelgeyle sunulan bilgileri yorumlar.
+Ünite [86]: T.7.3. OKUMA | Konu [4245]: T.7.3.35. Edebî eserin yazılı metni ile medya sunumunu karşılaştırır. | Kazanım [3670]: T.7.3.35. Edebi eserin yazılı metni ile medya sunumunu karşılaştırır. | Açıklama: Kahramanlar, mekân, zaman ve olay yönlerinden karşılaştırılması sağlanır.
+Ünite [86]: T.7.3. OKUMA | Konu [4246]: T.7.3.36. Metindeki anlatım biçimlerini belirler. | Kazanım [3671]: T.7.3.36. Metindeki anlatım biçimlerini belirler.
+Ünite [86]: T.7.3. OKUMA | Konu [4247]: T.7.3.37. Metinde kullanılan düşünceyi geliştirme yollarını belirler. | Kazanım [3672]: T.7.3.37. Metinde kullanılan düşünceyi geliştirme yollarını belirler.
+Ünite [86]: T.7.3. OKUMA | Konu [4248]: T.7.3.38. Metindeki iş ve işlem basamaklarını kavrar. | Kazanım [3673]: T.7.3.38. Metindeki iş ve işlem basamaklarını kavrar. | Açıklama: Talimatnamelerin okunması sağlanır.
+Ünite [87]: T.7.4. YAZMA | Konu [4249]: T.7.4.2. Bilgilendirici metin yazar. | Kazanım [3675]: T.7.4.2. Bilgilendirici metin yazar. | Açıklama: a) Öğrencilerin giriş, gelişme ve sonuç bölümlerinde yazacaklarını belirleyerek bir metin taslağı
+oluşturmaları, düşünceyi geliştirme yollarını kullanmaları, yazılı ve çoklu medya kaynaklarından görüşlerini
+destekleyecek kanıtlar sunmaları sağlanır.
+b) Öğrenciler günlük hayattan örnekler vermeye teşvik edilir.
+Ünite [87]: T.7.4. YAZMA | Konu [4250]: T.7.4.3. Hikâye edici metin yazar. | Kazanım [3676]: T.7.4.3. Hikâye edici metin yazar. | Açıklama: a) Öğrencilerin zaman, mekân, şahıs ve olay unsurlarını belirleyerek hikâyenin serim, düğüm ve çözüm
+bölümlerinin taslağını oluşturmaları sağlanır.
+b) Öğrencilerin yazım kılavuzundan yararlanmaları ve yeni öğrendiği kelimeleri kullanmaları teşvik edilir.
+Ünite [87]: T.7.4. YAZMA | Konu [4251]: T.7.4.4. Yazma stratejilerini uygular. | Kazanım [3677]: T.7.4.4. Yazma stratejilerini uygular. | Açıklama: Not alma, özet çıkarma, serbest, kontrollü, kelime ve kavram havuzundan seçerek yazma, bir metinden
+hareketle yazma ve duyulardan hareketle yazma gibi yöntem ve tekniklerin kullanılması sağlanır.
+Ünite [87]: T.7.4. YAZMA | Konu [4252]: T.7.4.5. Anlatımı desteklemek için grafik ve tablo kullanır. | Kazanım [3678]: T.7.4.5. Anlatımı desteklemek için grafik ve tablo kullanır.
+Ünite [87]: T.7.4. YAZMA | Konu [4253]: T.7.4.6. Bir işi işlem basamaklarına göre yazar. | Kazanım [3679]: T.7.4.6. Bir işi işlem basamaklarına göre yazar.
+Ünite [87]: T.7.4. YAZMA | Konu [4254]: T.7.4.7. Yazılarını zenginleştirmek için atasözleri, deyimler ve özdeyişler kullanır. | Kazanım [3680]: T.7.4.7. Yazılarını zenginleştirmek için atasözleri, deyimler ve özdeyişler kullanır.
+Ünite [87]: T.7.4. YAZMA | Konu [4255]: T.7.4.8. Yazılarında anlatım biçimlerini kullanır. | Kazanım [3681]: T.7.4.8. Yazılarında anlatım biçimlerini kullanır.
+Ünite [87]: T.7.4. YAZMA | Konu [4256]: T.7.4.9. Yazdıklarında yabancı dillerden alınmış, dilimize henüz yerleşmemiş kelimelerin Türkçelerini kullanır. | Kazanım [3682]: T.7.4.9. Yazdıklarında yabancı dillerden alınmış, dilimize henüz yerleşmemiş kelimelerin Türkçelerini kullanır.
+Ünite [87]: T.7.4. YAZMA | Konu [4257]: T.7.4.10. Formları yönergelerine uygun doldurur. | Kazanım [3683]: T.7.4.10. Formları yönergelerine uygun doldurur.
+Ünite [87]: T.7.4. YAZMA | Konu [4258]: T.7.4.11. Kısa metinler yazar. | Kazanım [3684]: T.7.4.11. Kısa metinler yazar. | Açıklama: Haber metni ve/veya anı yazmaya teşvik edilir.
+Ünite [87]: T.7.4. YAZMA | Konu [4259]: T.7.4.12. Yazdıklarının içeriğine uygun başlık belirler. | Kazanım [3685]: T.7.4.12. Yazdıklarının içeriğine uygun başlık belirler.
+Ünite [87]: T.7.4. YAZMA | Konu [4260]: T.7.4.13. Ek fiili işlevlerine uygun olarak kullanır. | Kazanım [3686]: T.7.4.13. Ek fiili işlevlerine uygun olarak kullanır.
+Ünite [87]: T.7.4. YAZMA | Konu [4261]: T.7.4.14. Araştırmalarının sonuçlarını yazılı olarak sunar. | Kazanım [3687]: T.7.4.14. Araştırmalarının sonuçlarını yazılı olarak sunar. | Açıklama: a) Öğrencilerin taslak hazırlamaları, taslaklarında giriş, gelişme, sonuç bölümlerine yer vermeleri sağlanır.
+b) Kaynak gösterme hakkında bilgi verilir.
+Ünite [87]: T.7.4. YAZMA | Konu [4262]: T.7.4.15. Yazılarında geçiş ve bağlantı ifadelerini kullanır. | Kazanım [3688]: T.7.4.15. Yazılarında geçiş ve bağlantı ifadelerini kullanır. | Açıklama: Oysaki, başka bir deyişle, özellikle, ilk olarak ve son olarak ifadelerini kullanmaları sağlanır.
+Ünite [87]: T.7.4. YAZMA | Konu [4263]: T.7.4.16. Yazdıklarını düzenler. | Kazanım [3689]: T.7.4.16.1. Büyük harflerin yazımı-sayıların yazımı | Açıklama: 
+Ünite [87]: T.7.4. YAZMA | Konu [4263]: T.7.4.16. Yazdıklarını düzenler. | Kazanım [11516]: T.7.4.16.2.“mi” soru edatının yazımı-“ki” nin yazımı | Açıklama: 
+Ünite [87]: T.7.4. YAZMA | Konu [4263]: T.7.4.16. Yazdıklarını düzenler. | Kazanım [11518]: T.7.4.16.3. Kısaltmaların yazımı- “da / de” nin yazımı | Açıklama: 
+Ünite [87]: T.7.4. YAZMA | Konu [4263]: T.7.4.16. Yazdıklarını düzenler. | Kazanım [11519]: T.7.4.16.4. Yazım kuralları karma sorularını kavrar. | Açıklama: 
+Ünite [87]: T.7.4. YAZMA | Konu [4264]: T.7.4.17. Yazdıklarını paylaşır. | Kazanım [3690]: T.7.4.17. Yazdıklarını paylaşır. | Açıklama: Öğrenciler yazdıklarını sınıf ve okul panosu ile sosyal medya ortamlarında paylaşmaya, şiir ve kompozisyon
+yarışmalarına katılmaya teşvik edilir.

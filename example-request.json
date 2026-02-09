@@ -1,0 +1,25 @@
+{
+  "dersId": 31,
+  "questions": [
+    {
+      "id": 1,
+      "text": "Aşağıdaki cümlelerin hangisinde noktalama işareti yanlış kullanılmıştır?"
+    },
+    {
+      "id": 2,
+      "text": "Metinde hangi söz sanatı kullanılmıştır? Kişileştirme örneği gösteriniz."
+    },
+    {
+      "id": 3,
+      "text": "Dinlediğiniz metindeki ana fikir nedir?"
+    },
+    {
+      "id": 4,
+      "text": "Aşağıdaki fiillerin hangisinde anlam kayması vardır?"
+    },
+    {
+      "id": 5,
+      "text": "Metindeki anlatım bozukluğunu bulunuz ve düzeltiniz."
+    }
+  ]
+}
