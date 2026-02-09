@@ -5,6 +5,8 @@ import { parseTestXml } from './services/xml-parser.js';
 import { saveMatchResults, updateActivityResults } from './services/database.js';
 import { getActivitiesFromElastic } from './services/elasticsearch.js';
 import { matchActivitiesToKazanim } from './services/activity-matcher.js';
+import { searchKazanimlar } from './services/kazanim-search.js';
+import { searchDisKazanimlar } from './services/dis-kazanim-search.js';
 
 dotenv.config();
 
@@ -262,6 +264,118 @@ app.post('/api/match-activities', async (req, res) => {
   }
 });
 
+app.post('/api/search-kazanim', async (req, res) => {
+  try {
+    const { dersId, queries, topK } = req.body;
+
+    // Validation
+    if (!dersId) {
+      return res.status(400).json({ 
+        error: 'dersId is required' 
+      });
+    }
+
+    if (!queries || !Array.isArray(queries) || queries.length === 0) {
+      return res.status(400).json({ 
+        error: 'queries array is required and must not be empty' 
+      });
+    }
+
+    // Validate queries structure
+    for (const query of queries) {
+      if (!query.id) {
+        return res.status(400).json({ 
+          error: 'Each query must have id property' 
+        });
+      }
+      if (!query.text) {
+        return res.status(400).json({ 
+          error: 'Each query must have text property' 
+        });
+      }
+    }
+
+    // Set default topK if not provided
+    const resultCount = topK && topK > 0 ? topK : 5;
+
+    console.log(`Searching ${queries.length} queries for DersId: ${dersId}, TopK: ${resultCount}`);
+
+    // Process search
+    const results = await searchKazanimlar(dersId, queries, resultCount);
+
+    res.json({
+      results,
+      summary: {
+        totalQueries: queries.length,
+        topK: resultCount,
+      },
+    });
+
+  } catch (error) {
+    console.error('Error in /api/search-kazanim:', error);
+    res.status(500).json({ 
+      error: 'Internal server error', 
+      message: error instanceof Error ? error.message : 'Unknown error'
+    });
+  }
+});
+
+app.post('/api/search-kazanim-dis', async (req, res) => {
+  try {
+    const { dersId, queries, topK } = req.body;
+
+    // Validation
+    if (!dersId) {
+      return res.status(400).json({ 
+        error: 'dersId is required' 
+      });
+    }
+
+    if (!queries || !Array.isArray(queries) || queries.length === 0) {
+      return res.status(400).json({ 
+        error: 'queries array is required and must not be empty' 
+      });
+    }
+
+    // Validate queries structure
+    for (const query of queries) {
+      if (!query.id) {
+        return res.status(400).json({ 
+          error: 'Each query must have id property' 
+        });
+      }
+      if (!query.text) {
+        return res.status(400).json({ 
+          error: 'Each query must have text property' 
+        });
+      }
+    }
+
+    // Set default topK if not provided
+    const resultCount = topK && topK > 0 ? topK : 5;
+
+    console.log(`Searching ${queries.length} queries for DersId: ${dersId}, TopK: ${resultCount} (Dis Kazanimlar)`);
+
+    // Process search
+    const results = await searchDisKazanimlar(dersId, queries, resultCount);
+
+    res.json({
+      results,
+      summary: {
+        totalQueries: queries.length,
+        topK: resultCount,
+      },
+    });
+
+  } catch (error) {
+    console.error('Error in /api/search-kazanim-dis:', error);
+    res.status(500).json({ 
+      error: 'Internal server error', 
+      message: error instanceof Error ? error.message : 'Unknown error'
+    });
+  }
+});
+
 app.get('/health', (req, res) => {
   res.json({ status: 'ok', timestamp: new Date().toISOString() });
 });
@@ -272,4 +386,6 @@ app.listen(PORT, () => {
   console.log(`Match endpoint: POST http://localhost:${PORT}/api/match-kazanim`);
   console.log(`Match from XML: POST http://localhost:${PORT}/api/match-kazanim-from-xml`);
   console.log(`Match activities: POST http://localhost:${PORT}/api/match-activities`);
+  console.log(`Search kazanim: POST http://localhost:${PORT}/api/search-kazanim`);
+  console.log(`Search dis kazanim: POST http://localhost:${PORT}/api/search-kazanim-dis`);
 });

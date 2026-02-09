@@ -1,0 +1,18 @@
+{
+  "dersId": 34,
+  "topK": 5,
+  "queries": [
+    {
+      "id": 1,
+      "text": "matematik işlemleri"
+    },
+    {
+      "id": 2,
+      "text": "geometri"
+    },
+    {
+      "id": 3,
+      "text": "problem çözme"
+    }
+  ]
+}

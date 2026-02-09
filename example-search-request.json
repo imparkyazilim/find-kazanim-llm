@@ -1,0 +1,18 @@
+{
+  "dersId": 31,
+  "topK": 5,
+  "queries": [
+    {
+      "id": 1,
+      "text": "noktalama işaretleri"
+    },
+    {
+      "id": 2,
+      "text": "metindeki söz sanatları"
+    },
+    {
+      "id": 3,
+      "text": "dinleme becerileri"
+    }
+  ]
+}

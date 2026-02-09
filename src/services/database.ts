@@ -26,6 +26,13 @@ export interface KazanimChunk {
   KonuId: number;
 }
 
+export interface DisKazanimChunk {
+  KazanimId: number;
+  ChunkText: string;
+  UniteId: number;
+  KonuId: number;
+}
+
 export interface MatchResult {
   id: number | string;
   uniteId: number;
@@ -74,6 +81,35 @@ export async function getKazanimChunks(dersId: number): Promise<KazanimChunk[]> 
   } catch (error) {
     console.error('Database error:', error);
     throw new Error('Failed to fetch kazanim chunks from database');
+  }
+}
+
+export async function getDisKazanimChunks(dersId: number): Promise<DisKazanimChunk[]> {
+  try {
+    const pool = await sql.connect(config);
+    
+    const result = await pool.request()
+      .input('dersId', sql.Int, dersId)
+      .query(`
+        SELECT
+          dk.KazanimId,
+          'Ünite [' + CAST(dk.UniteId AS VARCHAR(10)) + ']: ' + dk.DersAdi +
+          ' | Konu [' + CAST(dk.KonuId AS VARCHAR(10)) + ']' +
+          ' | Kazanım [' + CAST(dk.KazanimId AS VARCHAR(10)) + ']: ' + dk.KazanimAdi +
+          ISNULL(' | Kod: ' + dk.KazanimKodu, '') AS ChunkText,
+          dk.UniteId,
+          dk.KonuId
+        FROM [dbo].[S_DisKazanimlar] dk
+        WHERE dk.DersId = @dersId
+        ORDER BY dk.UniteId, dk.KonuId, dk.KazanimId
+      `);
+
+    await pool.close();
+    
+    return result.recordset as DisKazanimChunk[];
+  } catch (error) {
+    console.error('Database error:', error);
+    throw new Error('Failed to fetch dis kazanim chunks from database');
   }
 }
 

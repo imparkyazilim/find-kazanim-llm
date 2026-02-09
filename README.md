@@ -362,6 +362,132 @@ Elasticsearch'ten etkinlikleri çekerek kazanımlarla eşleştirir ve veritaban�
 - Where koşulu: `EtkinlikId = @etkinlikId AND GenelSira = @genelSira`
 - Diğer alanlar (UpdatedAt, UpdatedBy, vb.) değiştirilmez
 
+### POST /api/search-kazanim
+
+Semantik arama ile en uygun kazanımları bulur ve doğruluk oranıyla birlikte döndürür.
+
+**Kullanım Amacı:** Kullanıcı kazanım aramak istiyor ama aradığı kelime kazanım metninde geçmiyor. Fuzzy search yetersiz kalıyor. Bu endpoint semantik benzerlik ile en uygun kazanımları bulur.
+
+**Request Body:**
+
+```json
+{
+  "dersId": 31,
+  "topK": 5,
+  "queries": [
+    {
+      "id": 1,
+      "text": "noktalama işaretleri"
+    },
+    {
+      "id": 2,
+      "text": "metindeki söz sanatları"
+    }
+  ]
+}
+```
+
+**Parametreler:**
+
+- `dersId`: Ders ID (MSSQL'deki DersId)
+- `topK`: (Opsiyonel) Kaç adet sonuç isteniyor (varsayılan: 5)
+- `queries`: Arama sorguları (array)
+  - `id`: Sorgu ID
+  - `text`: Arama metni
+
+**Response:**
+
+```json
+{
+  "results": [
+    {
+      "queryId": 1,
+      "queryText": "noktalama işaretleri",
+      "matches": [
+        {
+          "uniteId": 86,
+          "konuId": 1641,
+          "kazanimId": 3636,
+          "kazanimText": "Ünite [86]: T.7.3. OKUMA | Konu [1641]: T.7.3.1. Noktalama işaretlerine dikkat ederek sesli ve sessiz okur. | Kazanım [3636]: T.7.3.1.1. Nokta, virgül, iki nokta...",
+          "confidenceScore": 95
+        },
+        {
+          "uniteId": 86,
+          "konuId": 1641,
+          "kazanimId": 11500,
+          "kazanimText": "Ünite [86]: T.7.3. OKUMA | Konu [1641]: T.7.3.1. Noktalama işaretlerine dikkat ederek sesli ve sessiz okur. | Kazanım [11500]: T.7.3.1.2. Tırnak işareti...",
+          "confidenceScore": 92
+        }
+      ]
+    },
+    {
+      "queryId": 2,
+      "queryText": "metindeki söz sanatları",
+      "matches": [
+        {
+          "uniteId": 86,
+          "konuId": 4218,
+          "kazanimId": 3643,
+          "kazanimText": "Ünite [86]: T.7.3. OKUMA | Konu [4218]: T.7.3.8. Metindeki söz sanatlarını tespit eder. | Kazanım [3643]: T.7.3.8.1. Benzetme - Konuşturma",
+          "confidenceScore": 98
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalQueries": 2,
+    "topK": 5
+  }
+}
+```
+
+**Özellikler:**
+
+- ✅ **Semantik Arama:** Tam kelime eşleşmesi gerekmez, anlam benzerliği önemli
+- ✅ **Doğruluk Oranı:** Her kazanım için 0-100 arası confidence score
+- ✅ **Sıralı Sonuçlar:** En yüksek doğruluk oranından düşüğe sıralı
+- ✅ **Toplu Arama:** Birden fazla sorgu tek istekte
+- ✅ **Esnek TopK:** İstediğiniz kadar sonuç (varsayılan 5)
+
+### POST /api/search-kazanim-dis
+
+`S_DisKazanimlar` tablosunda semantik arama ile en uygun kazanımları bulur.
+
+**Tablo:** `S_DisKazanimlar` (Dış kazanımlar tablosu)
+
+**Request Body:**
+
+```json
+{
+  "dersId": 34,
+  "topK": 5,
+  "queries": [
+    {
+      "id": 1,
+      "text": "matematik işlemleri"
+    },
+    {
+      "id": 2,
+      "text": "geometri"
+    }
+  ]
+}
+```
+
+**Parametreler:**
+
+- `dersId`: Ders ID (S_DisKazanimlar tablosunda)
+- `topK`: (Opsiyonel) Kaç adet sonuç isteniyor (varsayılan: 5)
+- `queries`: Arama sorguları (array)
+  - `id`: Sorgu ID
+  - `text`: Arama metni
+
+**Response:** `/api/search-kazanim` ile aynı format
+
+**Fark:**
+- `/api/search-kazanim`: `S_TestKazanimlar` tablosunu kullanır
+- `/api/search-kazanim-dis`: `S_DisKazanimlar` tablosunu kullanır
+
 ### GET /health
 
 Server durumunu kontrol eder.
@@ -379,9 +505,10 @@ Server durumunu kontrol eder.
 
 ### MSSQL Tabloları
 
-- `S_TestKazanimlar`: Kazanımlar
+- `S_TestKazanimlar`: Kazanımlar (Test kazanımları)
 - `S_TestKonular`: Konular
 - `S_TestUniteler`: Üniteler
+- `S_DisKazanimlar`: Dış kazanımlar
 - `S_CaprazGorevHistoryKazanim`: Soru-kazanım eşleştirme geçmişi
 - `S_EtkinliklerSoru`: Etkinlik soruları ve kazanım bilgileri
 
@@ -432,6 +559,12 @@ Server durumunu kontrol eder.
 
 # Etkinlik eşleştirme ve güncelleme
 .\test-activity-api.ps1
+
+# Kazanım semantik arama (S_TestKazanimlar)
+.\test-search-api.ps1
+
+# Dış kazanım semantik arama (S_DisKazanimlar)
+.\test-search-dis-api.ps1
 ```
 
 ## Lisans
