@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  find-kazanim-llm:
+    build: .
+    container_name: find-kazanim-llm
+    restart: always
+    ports:
+      - "9526:3000"
+    env_file:
+      - .env      
+    extra_hosts:
+      - "elastic.dijidemi.com:172.17.3.31"
+      - "sql.impark.local:172.17.3.99"
+    networks:
+      - bridge
+
+networks:
+  bridge:
+    driver: bridge
