@@ -143,7 +143,7 @@ export async function searchKazanimlar(
     const resultText = response.text;
     
     try {
-      const batchResults: Record<string, KazanimMatch[]> = JSON.parse(resultText);
+      const batchResults: Record<string, KazanimMatch[]> = JSON.parse(resultText || '{}');
       
       // Convert batch results to individual results
       const results: SearchResult[] = [];

@@ -237,10 +237,10 @@ app.post('/api/match-activities', async (req, res) => {
       failedActivities: allResults.filter(r => r.error).length,
       totalUpdated: allResults
         .filter(r => r.summary)
-        .reduce((sum, r) => sum + r.summary.updated, 0),
+        .reduce((sum, r) => sum + (r.summary?.updated || 0), 0),
       totalErrors: allResults
         .filter(r => r.summary)
-        .reduce((sum, r) => sum + r.summary.errors, 0),
+        .reduce((sum, r) => sum + (r.summary?.errors || 0), 0),
     };
 
     console.log(`\n=== Overall Summary ===`);
