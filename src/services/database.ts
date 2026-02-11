@@ -27,6 +27,8 @@ export interface KazanimChunk {
 }
 
 export interface DisKazanimChunk {
+  Id: number;
+  YayinciId: number;
   KazanimId: number;
   ChunkText: string;
   UniteId: number;
@@ -92,6 +94,8 @@ export async function getDisKazanimChunks(dersId: number): Promise<DisKazanimChu
       .input('dersId', sql.Int, dersId)
       .query(`
         SELECT
+          dk.Id,
+          dk.YayinciId,
           dk.KazanimId,
           'Ünite [' + CAST(dk.UniteId AS VARCHAR(10)) + ']: ' + dk.DersAdi +
           ' | Konu [' + CAST(dk.KonuId AS VARCHAR(10)) + ']' +

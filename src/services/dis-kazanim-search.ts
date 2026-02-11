@@ -7,6 +7,8 @@ interface SearchQuery {
 }
 
 interface KazanimMatch {
+  id: number;
+  yayinciId: number;
   uniteId: number;
   konuId: number;
   kazanimId: number;
@@ -24,9 +26,22 @@ const ai = new GoogleGenAI({
   apiKey: process.env.GEMINI_API_KEY || '',
 });
 
-function buildBatchSearchPrompt(chunks: string, queries: SearchQuery[], topK: number): string {
+interface ChunkWithIds {
+  Id: number;
+  YayinciId: number;
+  KazanimId: number;
+  UniteId: number;
+  KonuId: number;
+  ChunkText: string;
+}
+
+function buildBatchSearchPrompt(chunks: ChunkWithIds[], queries: SearchQuery[], topK: number): string {
   const queriesText = queries
     .map(q => `[${q.id}] ${q.text}`)
+    .join('\n');
+
+  const chunksText = chunks
+    .map(c => `[Id:${c.Id}|YayinciId:${c.YayinciId}] ${c.ChunkText}`)
     .join('\n');
 
   return `Sen deneyimli bir öğretmensin ve eğitim kazanımları konusunda uzmansın.
@@ -38,11 +53,11 @@ Amacın: Verilen arama metinlerine göre, aşağıdaki kazanım listesinden her 
 2. Tam kelime eşleşmesi gerekmez, anlam benzerliği önemli
 3. Her arama için en uygun ${topK} kazanımı seç ve doğruluk oranına göre sırala (en yüksek önce)
 4. Confidence score 0-100 arası bir sayı olmalı (100 = mükemmel eşleşme, 0 = hiç eşleşmiyor)
-5. ID'leri köşeli parantez içinden tam olarak çıkar: [84], [4195], [3618] gibi
+5. ID'leri köşeli parantez içinden tam olarak çıkar: [Id:123|YayinciId:456] formatında
 6. Hiyerarşi: Ünite > Konu > Kazanım şeklinde birbiriyle bağlantılı
 
 KAZANIM LİSTESİ (DİS KAZANIMLAR):
-${chunks}
+${chunksText}
 
 ARAMA METİNLERİ:
 ${queriesText}
@@ -52,6 +67,8 @@ Sadece JSON object döndür, başka hiçbir açıklama ekleme. Her arama ID'si i
 {
   "queryId": [
     {
+      "id": dis_kazanim_id_sayı,
+      "yayinciId": yayinci_id_sayı,
       "uniteId": unite_id_sayı,
       "konuId": konu_id_sayı,
       "kazanimId": kazanim_id_sayı,
@@ -76,15 +93,10 @@ export async function searchDisKazanimlar(
     throw new Error(`No dis kazanim found for dersId: ${dersId}`);
   }
 
-  // Build context from chunks
-  const chunksText = chunks
-    .map(c => c.ChunkText)
-    .join('\n');
-
   console.log(`Searching ${queries.length} queries in batch mode (Dis Kazanimlar)`);
 
   // Build prompt for all queries at once
-  const prompt = buildBatchSearchPrompt(chunksText, queries, topK);
+  const prompt = buildBatchSearchPrompt(chunks, queries, topK);
 
   // Create dynamic schema based on query IDs
   const schemaProperties: Record<string, any> = {};
@@ -97,6 +109,14 @@ export async function searchDisKazanimlar(
       items: {
         type: Type.OBJECT,
         properties: {
+          id: {
+            type: Type.INTEGER,
+            description: 'Dis Kazanim ID from the chunk',
+          },
+          yayinciId: {
+            type: Type.INTEGER,
+            description: 'Yayinci ID from the chunk',
+          },
           uniteId: {
             type: Type.INTEGER,
             description: 'Unite ID from the chunk',
@@ -118,7 +138,7 @@ export async function searchDisKazanimlar(
             description: 'Confidence score 0-100',
           },
         },
-        required: ['uniteId', 'konuId', 'kazanimId', 'kazanimText', 'confidenceScore'],
+        required: ['id', 'yayinciId', 'uniteId', 'konuId', 'kazanimId', 'kazanimText', 'confidenceScore'],
       },
     };
     requiredFields.push(queryIdStr);
